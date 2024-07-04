@@ -2,5 +2,113 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #000000;
+    padding: 0rem 1.5rem;
+    border-bottom: 0.125rem solid #FFC757;
+    width: auto;
+}
+
+.headerleft{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.dividerline{
+    width: 0.125rem;
+    height: 3.75rem;
+    background-color: #FFC757;
+    margin-right: 0rem;
+}
+
+.headerlinks{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: 2.25rem;
+    font-size: 17.16px;
+    font-weight: 400;
+}
+
+.multiplepageslink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #ffffff;
+    font-size: 17.16px;
+    font-weight: 400;
+}
+
+.headerright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.secondaryCTA{
+    color: #FFC757;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.0156rem;
+    background: none;
+    border: 0.0625rem solid #FFC757;
+    padding: 0.75rem 2.125rem;
+    margin-left: 1.5rem;
+    margin-right: 0.75rem;
+    border-radius: 1.5rem;
+}
+
+.primaryCTA{
+    color: #000000;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: -0.0156rem;
+    background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
+    padding: 0.75rem 1.875rem;
+    border-radius: 24PX;
+}
+
+.headerhamburger{
+    display: none;
+}
+
+/* Responsive section starts here  */
+
+@media only screen and (max-width:1280px){
+    .dividerline{
+        display: none;
+    }
+    
+    .headerlinks{
+        display: none;
+    }
+    
+    .multiplepageslink{
+        display: none;
+    }
+    .headerhamburger{
+        display: block;
+        margin-left: 24px;
+    }
+}
+
+
+@media only screen and (max-width:524px){
+    .secondaryCTA{
+    display: none;
+    }
+    
+}
+
+
+/* Responsive section ends here  */
