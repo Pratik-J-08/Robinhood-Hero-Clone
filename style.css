@@ -27,6 +27,9 @@ body{
     width: 100vw;
     position:fixed;
     top: 0;
+    width: 100vw;
+    position:fixed;
+    top: 0;
 }
 
 .headerleft{
@@ -48,6 +51,7 @@ body{
     color: #ffffff;
     gap: 2.25rem;
     font-size: 1rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -58,6 +62,7 @@ body{
     gap: 0.5rem;
     color: #ffffff;
     font-size: 1rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -65,6 +70,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* position: relative; */
+    /* margin-right: 1.5rem; */
+
     /* position: relative; */
     /* margin-right: 1.5rem; */
 
@@ -80,10 +88,17 @@ body{
     padding: 0.75rem 2.125rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-right: 1.5rem;
     border-radius: 1.5rem;
 }
 
 .primaryCTA{
+    color: #FFC757;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #FFC757;
+    font-size: 0.875rem;
+    font-weight: 700;
     color: #FFC757;
     font-size: 0.875rem;
     font-weight: 700;
@@ -98,6 +113,7 @@ body{
     padding: 0.75rem 1.875rem;
     border-radius: 24PX;
     margin-right: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .headerhamburger{
@@ -106,6 +122,7 @@ body{
 
 /* Responsive section starts here  */
 
+@media only screen and (max-width:80rem){
 @media only screen and (max-width:80rem){
     .dividerline{
         display: none;
@@ -136,9 +153,33 @@ body{
 
 
 @media only screen and (max-width:35.5rem){
+@media only screen and (max-width:35.5rem){
     .secondaryCTA{
     display: none;
     }
+    .primaryCTA{
+        color: #FFC757;
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #FFC757;
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: #000000;
+        font-size: 0.8125rem;
+        font-weight: 700;
+        letter-spacing: -0.0156rem;
+        background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
+        padding: 0.75rem 1rem;
+        border-radius: 24PX;
+    }
+    .header{
+        padding-right: 24px;
+        padding-left: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .primaryCTA{
         color: #FFC757;
         font-size: 0.875rem;
