@@ -27,9 +27,6 @@ body{
     width: 100vw;
     position:fixed;
     top: 0;
-    width: 100vw;
-    position:fixed;
-    top: 0;
 }
 
 .headerleft{
@@ -51,7 +48,6 @@ body{
     color: #ffffff;
     gap: 2.25rem;
     font-size: 1rem;
-    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -62,7 +58,6 @@ body{
     gap: 0.5rem;
     color: #ffffff;
     font-size: 1rem;
-    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -70,9 +65,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
-    /* margin-right: 1.5rem; */
-
     /* position: relative; */
     /* margin-right: 1.5rem; */
 
@@ -88,17 +80,10 @@ body{
     padding: 0.75rem 2.125rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    margin-right: 1.5rem;
     border-radius: 1.5rem;
 }
 
 .primaryCTA{
-    color: #FFC757;
-    font-size: 0.875rem;
-    font-weight: 700;
-    color: #FFC757;
-    font-size: 0.875rem;
-    font-weight: 700;
     color: #FFC757;
     font-size: 0.875rem;
     font-weight: 700;
@@ -113,16 +98,132 @@ body{
     padding: 0.75rem 1.875rem;
     border-radius: 24PX;
     margin-right: 1.5rem;
-    margin-right: 1.5rem;
 }
 
 .headerhamburger{
     display: none;
 }
 
+
+.hero{
+    padding-right: 24px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.75rem;
+    padding-bottom: 40PX;
+    /* padding-right: 1.5rem; */
+    /* padding-right: 1.5rem; */
+    background-color: #000000;
+}
+
+
+.herocontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0px 24px;
+    width: auto;
+}
+
+.herogoldlogo{
+    margin-top: 2.5rem;
+}
+
+.herovideo{
+    height: 32.1875rem;
+}
+
+.heroheader{
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: -0.125rem;
+    text-align: center;
+    background: linear-gradient(to bottom , #FFCC69, #FDE5B6, #FFDD98);
+    background-clip:text;
+    color: transparent;
+    width: auto;
+    margin-top: 1.75rem;
+}
+
+.herosupportingtext{
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: -0.0156rem;
+    text-align: center;
+    line-height: 1.75rem;
+    color: #ffffff;
+    margin: 1.25rem 0rem;
+}
+
+.termsandlimitationinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    font-size : 0.9375rem;
+    font-weight: 400;
+    letter-spacing: -0.0063rem;
+    color: #919FA6;
+    margin-bottom: 1.125rem;
+}
+
+.herCTAcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.heroCTA{
+    padding: 0.75rem 2.25rem;
+    background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
+    border-radius: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.0063rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 1.5rem; */
+    /* margin: 0rem 20.0625rem 1.5rem 20.0625rem; */
+    max-width: 9.875rem;
+    /* width: 9.875rem; */
+}
+
+
+.freestockgiftcontainer{
+    background: linear-gradient( 60deg, #00C205, #23e42a ,#C3F5C3 );
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.freestockgift{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.0063rem;
+    color: #000000;
+    padding: 1.25rem auto;
+    /* background: linear-gradient(to 60deg, #00C205, #C3F5C3 ); */
+}
+
+.textonlycta{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.0063rem;
+    color: #000000;
+    text-decoration: underline;
+}
+
 /* Responsive section starts here  */
 
-@media only screen and (max-width:80rem){
 @media only screen and (max-width:80rem){
     .dividerline{
         display: none;
@@ -141,15 +242,44 @@ body{
         margin-right: 1.5rem;
     }
     .headerright{
-        padding-right: 0px;
+        padding-right: 0rem;
     }
     /* .herovideo{
-       max-height: 338px;
+       max-height: 21.125rem;
        display: flex;
        align-items: center;
        justify-content: center;
     } */
+     .herovideo{
+        max-height: 21.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem auto;
+    }
+    .hero{
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .heroheader{
+        font-size: 62px;
+        font-weight: 400;
+        letter-spacing: -0.0625rem;
+        text-align: center;
+
+    }
 }
+
+
+/* @media only screen and (max-width:55.938rem){
+    .heroheader{
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: -0.0625rem;
+        text-align: center;
+
+    }
+} */
 
 
 @media only screen and (max-width:35.5rem){
@@ -172,34 +302,94 @@ body{
         border-radius: 24PX;
     }
     .header{
-        padding-right: 24px;
-        padding-left: 24px;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-
-    .primaryCTA{
-        color: #FFC757;
-        font-size: 0.875rem;
-        font-weight: 700;
-        color: #FFC757;
-        font-size: 0.875rem;
-        font-weight: 700;
-        color: #000000;
-        font-size: 0.8125rem;
-        font-weight: 700;
+    .herovideo{
+        max-height: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem auto;
+        /* transition-timing-function: linear ; */
+    }
+    .heroheader{
+        font-size: 32px;
+        font-weight: 400;
+        letter-spacing: -0.0625rem;
+        text-align: center;
+        background: linear-gradient(to bottom , #FFCC69, #FDE5B6, #FFDD98);
+        background-clip:text;
+        color: transparent;
+        width: auto;
+        margin-top: 1.75rem;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .herosupportingtext{
+        font-size: 0.9375rem;
+        font-weight: 400;
         letter-spacing: -0.0156rem;
-        background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
-        padding: 0.75rem 1rem;
-        border-radius: 24PX;
+        text-align: center;
+        line-height: 1.75rem;
+        color: #ffffff;
+        margin: 1.25rem 0rem;
     }
-    .header{
-        padding-right: 24px;
-        padding-left: 24px;
+    
+    .termsandlimitationinfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.75rem;
+        font-size : 0.75rem;
+        font-weight: 400;
+        letter-spacing: -0.0063rem;
+        color: #919FA6;
+        margin-bottom: 1.125rem;
+    }
+    
+    .herCTAcontainer{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .heroCTA{
+        padding: 0.75rem 2.25rem;
+        background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
+        border-radius: 1.5rem;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: -0.0063rem;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-bottom: 1.5rem; */
+        /* margin: 0rem 20.0625rem 1.5rem 20.0625rem; */
+        max-width: 9.875rem;
+        /* width: 9.875rem; */
+    }
+    .freestockgift{
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: -0.0063rem;
+        color: #000000;
+        padding: 1.25rem auto;
+        /* background: linear-gradient(to 60deg, #00C205, #C3F5C3 ); */
+    }
+    
+    .textonlycta{
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: -0.0063rem;
+        color: #000000;
+        text-decoration: underline;
     }
 
 }
@@ -207,107 +397,5 @@ body{
 
 /* Responsive section ends here  */
 
-.hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    padding-bottom: 40PX;
-    padding-right: 24px;
-    padding-right: 24px;
-    background-color: #000000;
-}
-
-.herogoldlogo{
-    margin-top: 40px;
-}
-
-.herovideo{
-    height: 515px;
-}
-
-.heroheader{
-    font-size: 72px;
-    font-weight: 400;
-    letter-spacing: -2px;
-    text-align: center;
-    background: linear-gradient(to bottom , #FFCC69, #FDE5B6, #FFDD98);
-    background-clip:text;
-    color: transparent;
-    width: auto;
-    margin-top: 28px;
-}
-
-.herosupportingtext{
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -0.25px;
-    text-align: center;
-    line-height: 28px;
-    color: #ffffff;
-    margin: 20px 0px;
-}
-
-.termsandlimitationinfo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    font-size : 15px;
-    font-weight: 400;
-    letter-spacing: -0.1px;
-    color: #919FA6;
-    margin-bottom: 18px;
-}
-
-.herCTAcontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-}
-
-.heroCTA{
-    padding: 12px 36px;
-    background: linear-gradient( to right, #FFCC69,#FDE5B6, #FFDD98 );
-    border-radius: 24px;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: -0.1px;
-    color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 24px; */
-    /* margin: 0px 321px 24px 321px; */
-    max-width: 158px;
-    /* width: 158px; */
-}
 
 
-.freestockgiftcontainer{
-    background: linear-gradient( 60deg, #00C205, #23e42a ,#C3F5C3 );
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.freestockgift{
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: -0.1px;
-    color: #000000;
-    padding: 20px auto;
-    /* background: linear-gradient(to 60deg, #00C205, #C3F5C3 ); */
-}
-
-.textonlycta{
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: -0.1px;
-    color: #000000;
-    text-decoration: underline;
-}
