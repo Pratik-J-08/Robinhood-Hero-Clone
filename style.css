@@ -251,7 +251,7 @@ body{
        justify-content: center;
     } */
      .herovideo{
-        max-height: 21.125rem;
+        max-height: 15.125rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -317,7 +317,7 @@ body{
         /* transition-timing-function: linear ; */
     }
     .heroheader{
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 400;
         letter-spacing: -0.0625rem;
         text-align: center;
@@ -331,7 +331,7 @@ body{
     }
     
     .herosupportingtext{
-        font-size: 0.9375rem;
+        font-size: 0.875rem;
         font-weight: 400;
         letter-spacing: -0.0156rem;
         text-align: center;
